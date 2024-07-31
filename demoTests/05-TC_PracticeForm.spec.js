@@ -6,7 +6,6 @@ test('select datepicker', async ({page}) => {
     const demoQA = new PracticeFormSteps(page);
     await demoQA.gotoDatepicker();
     await demoQA.datePicker();
-    // await page.waitForTimeout(3000);
 })
 
 test('fill auto complete', async ({page}, testInfo) => {
